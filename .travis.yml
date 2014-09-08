@@ -1,2 +1,9 @@
 language: ruby
 rvm: 2.1.0
+deploy:
+  provider: heroku
+  api_key:
+    secure: DPvXkJv/WeAlB3gnoHEDRTe3093shQm5I340kooE0rV07FYG5dstNAkIDMngFlK46Ny+b6HG45AFtWafAgOWjzJCtNxYRR2b7PErh+8WH9bY3Xtod3hed7QcU+yhAuiitGAntIEoRTPTJ0iDY+o1bc9bZMDmLzK/2UN3VeXiRlw=
+  app: gitarson-api
+  on:
+    repo: kamelury/gitarson-api
